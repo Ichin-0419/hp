@@ -137,4 +137,17 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem; /* タイトルを少し小さめに */
+  }
+  h2 {
+    font-size: 1.25rem; /* セクション見出しも調整 */
+  }
+  body {
+    font-size: 1rem; /* スマホでも文字が小さく潰れないように */
+  }
+}
+
+
 
