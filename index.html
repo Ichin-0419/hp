@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>猫ちゃんvlog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function changeText() {
+    const btn = document.querySelector("button"); // ボタン要素を取得
+    btn.innerText = "ありがとう！";              // 文字を変える
+    btn.style.backgroundColor = "tomato";        // 背景色を変える
+    btn.style.color = "white";                   // 文字色も見やすく
+  }
+</script>
+
+<body>
+  <div class="container">
+    <header>
+     <nav>
+      <a href="index.html">ホーム</a> |
+      <a href="about.html">自己紹介</a>
+     </nav>
+      <h1>8/16 子猫をお迎えしました！</h1>
+      <p>ペルシャ猫の雄で、大きなお目目がチャームポイント</p>
+    </header>
+
+    <main>
+      <h2>全然ご飯を食べません…。</h2>
+      <p>初日は警戒しているのか、ごはんや水に一切手を付けず、暗くて狭いところに隠れてしまいます。</p>
+      <ul>
+        <li>品種…ペルシャ猫</li>
+        <li>毛色…ブルータピー</li>
+        <li>名前…朏朏</li>
+      </ul>
+
+      <p><a href="https://www.python.jp/" target="_blank" rel="noopener">Python Japan</a> へのリンク</p>
+
+      <figure>
+        <img src=".\feifei.jpg" alt="フェイフェイ" width="720" height="477" />
+        <figcaption>サンプル画像（altは視覚に頼らない人向けの説明）</figcaption>
+      </figure>
+      <p id="greeting">Hello World!</p>
+      <button onclick="changeText()">文字と色を変える</button>
+           
+
+    </main>
+
+    <footer>&copy; 2025 Ichino（仮）</footer>
+  </div>
+</body>
+</html>
+
