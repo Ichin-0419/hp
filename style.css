@@ -152,6 +152,16 @@ nav a:hover {
     height: auto; 
   }
 }
+.avatar, .profile-img {
+  width: clamp(120px, 40vw, 200px); /* 画面に合わせて自動可変 */
+  aspect-ratio: 1 / 1;              /* 正方形の枠を強制 */
+  object-fit: cover;                 /* 中央を切り抜いて収める */
+  border-radius: 50%;                /* 正円 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 
