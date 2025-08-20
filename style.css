@@ -122,18 +122,19 @@ nav a:hover {
   margin-bottom: 1rem;   /* 下に余白を足してテキストと分離 */
 }
 
-.inbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;   /* 余白はお好み */
-  background: #f9f9f9;
+
+/* ------------------------------
+   画像の中央寄せ & レスポンシブ対応
+   （container の中に画像 + テキストがある想定。画像だけ中央にしたい）
+   ------------------------------ */
+.container img {
+  display: block;        /* 行内要素だと左右中央寄せが効きにくいのでブロック化 */
+  max-width: 100%;       /* 親（container）の幅を超えない */
+  height: auto;          /* アスペクト比を維持して縦を自動調整 */
+  margin-left: auto;     /* 左右中央寄せ（左右マージン自動） */
+  margin-right: auto;    
+  margin-top: 1rem;      /* 上下の余白はお好みで */
+  margin-bottom: 1rem;
 }
 
-.inbox img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px; /* 角丸とかオシャレに */
-}
 
