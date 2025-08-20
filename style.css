@@ -122,3 +122,18 @@ nav a:hover {
   margin-bottom: 1rem;   /* 下に余白を足してテキストと分離 */
 }
 
+.inbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;   /* 余白はお好み */
+  background: #f9f9f9;
+}
+
+.inbox img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px; /* 角丸とかオシャレに */
+}
+
