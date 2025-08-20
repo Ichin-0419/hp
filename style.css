@@ -147,7 +147,12 @@ nav a:hover {
   body {
     font-size: 1rem; /* スマホでも文字が小さく潰れないように */
   }
+    .container img {
+    max-width: 100%;
+    height: auto; 
+  }
 }
+
 
 
 
